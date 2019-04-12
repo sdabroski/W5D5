@@ -1,0 +1,30 @@
+/* PHASE 5: Cats */
+
+
+.content-header  {
+  position: relative;
+  height: 200px;
+  background: url("../images/cats.jpg");
+  background-size: cover;
+  border-bottom: 1px solid white;
+  width: 100%;
+  color: white;
+  font-size: 75px;
+  /* padding: 50px; */
+  justify-content: center;
+}
+
+.content-header-add-friend {
+  border: 1px solid pink;
+  background: white;
+  color: black;
+  position: absolute;
+  bottom: 0px;
+  right: 35%;
+  border-radius: 40px;
+}
+
+.content-header-add-friend:hover {
+  background: url("../images/batmans.jpeg");
+  color: white;
+}
